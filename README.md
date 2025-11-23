@@ -26,3 +26,33 @@ not completed, but the system successfully supports:
 
 - tictactoe/
 - tic_tac_toe.py Terminal-based tic tac toe planner
+
+## How to Run
+### 0. Build & Source Workspace
+Before running anything:
+
+```bash
+cd ~/tic_tac_toe_ws
+catkin_make
+source devel/setup.bash
+```
+### 1. Launch Gazebo (Robot + World)
+```bash 
+roslaunch niryo_robot_gazebo niryo_robot_gazebo_world.launch.xml
+```
+
+### 2. Launch MoveIt + RViz
+```bash
+roslaunch niryo_moveit_config_standalone demo.launch
+```
+### 3. Run the Tic Tac Toe Controller
+```bash
+rosrun tic_tac_toe tic_tac_toe.py
+```
+
+## 🔗 Reference to Base Robotics Repository
+
+This simulation builds on the official Niryo Ned ROS repository:
+
+Niryo Robotics (ned_ros)
+- https://github.com/NiryoRobotics/ned_ros
