@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="Screenshot from 2025-11-19 16-50-29" src="https://github.com/user-attachments/assets/1ea3d7d0-6c55-4d53-9edc-420a8f5e1c45" /># Niryo Ned2 – Tic Tac Toe Simulation (ROS, MoveIt, Gazebo)
+# Niryo Ned2 – Tic Tac Toe Simulation (ROS, MoveIt, Gazebo)
 
 This repository contains a simulation of the Niryo Ned2 robotic arm using
 ROS Noetic, MoveIt, and Gazebo. The objective was to model the robot using URDF/Xacro,
