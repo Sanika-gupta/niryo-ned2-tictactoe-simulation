@@ -24,10 +24,9 @@ https://github.com/user-attachments/assets/26fb0256-de43-42ed-b7f5-0e34eb6afb60
 - urdf/ Robot description files
 - launch/ Gazebo launch files
 - config/ Controller configs
-- screenshots/ RViz and Gazebo views
 
 - tictactoe/
-- tic_tac_toe.py Terminal-based tic tac toe planner
+- ttt.py Terminal-based tic tac toe planner
 
   <img width="1366" height="768" alt="Screenshot from 2025-11-19 16-51-08" src="https://github.com/user-attachments/assets/dd7f68d2-d884-45d8-94a6-28f6963b6864" />
 
