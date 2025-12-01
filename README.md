@@ -16,10 +16,10 @@ not completed, but the system successfully supports:
 
 ---
 
-<img width="1366" height="768" alt="Screenshot from 2025-11-19 16-51-08" src="https://github.com/user-attachments/assets/dd7f68d2-d884-45d8-94a6-28f6963b6864" />
+
+https://github.com/user-attachments/assets/26fb0256-de43-42ed-b7f5-0e34eb6afb60
 
 ## Repository Structure
-
 - simulation/
 - urdf/ Robot description files
 - launch/ Gazebo launch files
@@ -28,6 +28,9 @@ not completed, but the system successfully supports:
 
 - tictactoe/
 - tic_tac_toe.py Terminal-based tic tac toe planner
+
+  <img width="1366" height="768" alt="Screenshot from 2025-11-19 16-51-08" src="https://github.com/user-attachments/assets/dd7f68d2-d884-45d8-94a6-28f6963b6864" />
+
 
 ## How to Run
 ### 0. Build & Source Workspace
@@ -49,7 +52,7 @@ roslaunch niryo_moveit_config_standalone demo.launch
 ```
 ### 3. Run the Tic Tac Toe Controller
 ```bash
-rosrun tic_tac_toe tic_tac_toe.py
+rosrun tic_tac_toe ttt.py
 ```
 
 ## 🔗 Reference to Base Robotics Repository
